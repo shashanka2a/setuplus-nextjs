@@ -9,7 +9,6 @@ import {
   Users, 
   Heart,
   Palette,
-  Video,
   Image as ImageIcon,
   Award
 } from "lucide-react";

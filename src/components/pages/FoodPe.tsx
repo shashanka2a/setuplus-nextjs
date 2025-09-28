@@ -117,9 +117,12 @@ export function FoodPe({ onBack }: FoodPeProps) {
             {/* Hero Image */}
             <div className="relative">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmb29kJTIwZGVsaXZlcnklMjByZXN0YXVyYW50fGVufDF8fHx8MTc1ODk0NTk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                 alt="Food delivery"
                 className="w-full h-auto rounded-2xl shadow-2xl"
+                width={600}
+                height={400}
+                priority
               />
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-lg">
                 <div className="flex items-center gap-3">

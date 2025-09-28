@@ -11,7 +11,6 @@ import {
   Heart,
   Clock,
   Shield,
-  Music,
   Film
 } from "lucide-react";
 

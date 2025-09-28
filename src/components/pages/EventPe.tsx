@@ -11,8 +11,7 @@ import {
   Heart,
   Clock,
   CheckCircle,
-  Gift,
-  Music
+  Gift
 } from "lucide-react";
 
 interface EventPeProps {
