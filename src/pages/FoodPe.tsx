@@ -19,7 +19,7 @@ interface FoodPeProps {
   onBack: () => void;
 }
 
-export function FoodPe({ onBack }: FoodPeProps) {
+function FoodPe({ onBack }: FoodPeProps) {
   const features = [
     {
       icon: Clock,
@@ -234,3 +234,5 @@ export function FoodPe({ onBack }: FoodPeProps) {
     </div>
   );
 }
+
+export default FoodPe;
