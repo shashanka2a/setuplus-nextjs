@@ -2,7 +2,7 @@
 import { Button } from "../ui/button";
 import { Card, CardContent } from "../ui/card";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
-import { ArrowLeft, GraduationCap, BookOpen, Star, Users, Trophy, Clock, Video, Target } from "lucide-react";
+import { ArrowLeft, GraduationCap, BookOpen, Star, Users, Trophy } from "lucide-react";
 
 interface LearnPeProps {
   onBack: () => void;

@@ -2,7 +2,7 @@
 import { Button } from "../ui/button";
 import { Card, CardContent } from "../ui/card";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
-import { ArrowLeft, Car, Clock, DollarSign, Star, Users, MapPin, Shield, Fuel } from "lucide-react";
+import { ArrowLeft, Car, DollarSign, Star, Users, MapPin, Shield, Fuel } from "lucide-react";
 
 interface RidePeProps {
   onBack: () => void;

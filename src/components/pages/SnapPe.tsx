@@ -1,8 +1,7 @@
 'use client'
 import { Button } from "../ui/button";
-import { Card, CardContent } from "../ui/card";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
-import { ArrowLeft, Camera, Star, Users, Image, Video } from "lucide-react";
+import { ArrowLeft, Camera } from "lucide-react";
 
 interface SnapPeProps {
   onBack: () => void;

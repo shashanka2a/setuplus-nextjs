@@ -1,8 +1,7 @@
 'use client'
 import { Button } from "../ui/button";
-import { Card, CardContent } from "../ui/card";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
-import { ArrowLeft, Calendar, Star, Users, PartyPopper, CheckCircle } from "lucide-react";
+import { ArrowLeft, Calendar, PartyPopper } from "lucide-react";
 
 interface EventPeProps {
   onBack: () => void;

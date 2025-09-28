@@ -2,7 +2,7 @@
 import { Button } from "../ui/button";
 import { Card, CardContent } from "../ui/card";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
-import { ArrowLeft, Wrench, Clock, Shield, Star, Users, Zap, Home, CheckCircle } from "lucide-react";
+import { ArrowLeft, Wrench, Star, Users, Home, CheckCircle } from "lucide-react";
 
 interface RepairPeProps {
   onBack: () => void;

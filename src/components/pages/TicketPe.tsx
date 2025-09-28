@@ -1,8 +1,7 @@
 'use client'
 import { Button } from "../ui/button";
-import { Card, CardContent } from "../ui/card";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
-import { ArrowLeft, Ticket, Star, Users, Calendar, Music } from "lucide-react";
+import { ArrowLeft, Ticket, Calendar } from "lucide-react";
 
 interface TicketPeProps {
   onBack: () => void;
